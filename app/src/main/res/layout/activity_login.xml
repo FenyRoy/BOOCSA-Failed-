@@ -1,11 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.ef_corp.boosca.LoginActivity">
+    android:orientation="vertical"
+    tools:context="com.ef_corp.boosca.LoginActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp"
+    android:background="@drawable/bk">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="50dp"
+        android:layout_gravity="center"
+        android:textColor="#034bba"
+        android:layout_marginTop="50dp"
+
+        />
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:hint="username  :"
+        android:id="@+id/user"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="250dp"
+        android:hint="password:"
+        android:inputType="textPassword"
+        android:layout_gravity="center"
+        android:id="@+id/pass"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:textColor="#0309ba"
+        android:fontFamily="@font/aclonica"
+        android:layout_gravity="center"
+        android:background="#e7b373"
+        android:textSize="25dp"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="20dp"
+        android:background="#e7b373"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Free Roam"
+        android:background="#e7b373"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        />
 
 </LinearLayout>
