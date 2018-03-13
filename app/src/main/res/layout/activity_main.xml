@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00ff0d"
+    android:background="@drawable/bk"
     android:weightSum="3"
     tools:context="com.ef_corp.boosca.MainActivity">
 
@@ -20,8 +20,9 @@
         android:fontFamily="sans-serif-condensed"
         android:text="@string/title"
         android:textAlignment="center"
-        android:textColor="@color/colorAccent"
-        android:textSize="50sp" />
+        android:textColor="@android:color/holo_purple"
+        android:textSize="50sp"
+        tools:fontFamily="@font/aclonica" />
 
     <TextView
         android:layout_width="wrap_content"
