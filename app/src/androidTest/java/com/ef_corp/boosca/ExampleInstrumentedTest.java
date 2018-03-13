@@ -1,4 +1,4 @@
-package com.ef_corp.boocsa;
+package com.ef_corp.boosca;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
