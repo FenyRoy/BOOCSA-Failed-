@@ -13,12 +13,13 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome"
-        android:fontFamily="sans-serif-condensed"
-        android:textSize="50dp"
         android:layout_gravity="center"
-        android:textColor="#034bba"
         android:layout_marginTop="50dp"
+        android:fontFamily="cursive"
+        android:text="Welcome"
+        android:textStyle="bold"
+        android:textColor="#034bba"
+        android:textSize="50dp"
 
         />
     <EditText
@@ -36,14 +37,15 @@
         android:inputType="textPassword"
         android:layout_gravity="center"
         android:id="@+id/pass"/>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="login"
-        android:textColor="#0309ba"
-        android:fontFamily="@font/aclonica"
         android:layout_gravity="center"
         android:background="#e7b373"
+        android:fontFamily="monospace"
+        android:text="login"
+        android:textColor="#0309ba"
         android:textSize="25dp"
 
         />
