@@ -23,19 +23,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_search_black_24dp"
-        android:background="#dcdcdc"
+        android:background="@drawable/my_button_bg"
         android:alpha="0.5"
         android:layout_weight="2" />
 
 </LinearLayout>
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="12">
 
 
 
-    </LinearLayout>
+    </ScrollView>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -47,22 +47,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_people_black_24dp"
-            android:background="#dcdcdc"
+            android:background="@drawable/my_button_bg"
             android:alpha="0.5"
             android:layout_weight="1" />
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_add_black_24dp"
-            android:background="#dcdcdc"
+            android:background="@drawable/my_button_bg"
             android:alpha="0.5"
             android:layout_weight="1" />
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_account_circle_black_24dp"
-            android:background="#dcdcdc"
-            android:alpha="0.5"
+            android:background="@drawable/my_button_bg"
+            android:alpha="0.70"
             android:layout_weight="1" />
 
 
