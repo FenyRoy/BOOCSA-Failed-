@@ -13,19 +13,22 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_weight="0"
-    android:weightSum="3">
+    android:weightSum="4">
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1" />
+        android:layout_weight="1"
+        android:alpha="0.7"
+        android:background="@drawable/my_button_bg"/>
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_search_black_24dp"
         android:background="@drawable/my_button_bg"
-        android:alpha="0.5"
-        android:layout_weight="2" />
+        android:alpha="0.7"
+        android:onClick="searchbutton"
+        android:layout_weight="3" />
 
 </LinearLayout>
     <ScrollView
@@ -48,14 +51,16 @@
             android:layout_height="wrap_content"
             android:src="@drawable/ic_people_black_24dp"
             android:background="@drawable/my_button_bg"
-            android:alpha="0.5"
+            android:alpha="0.7"
+            android:onClick="friendbutton"
             android:layout_weight="1" />
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_add_black_24dp"
             android:background="@drawable/my_button_bg"
-            android:alpha="0.5"
+            android:alpha="0.7"
+            android:onClick="newbutton"
             android:layout_weight="1" />
         <ImageView
             android:layout_width="wrap_content"
@@ -63,6 +68,7 @@
             android:src="@drawable/ic_account_circle_black_24dp"
             android:background="@drawable/my_button_bg"
             android:alpha="0.70"
+            android:onClick="profilebutton"
             android:layout_weight="1" />
 
 

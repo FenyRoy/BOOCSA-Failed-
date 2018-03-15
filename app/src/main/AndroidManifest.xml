@@ -17,13 +17,13 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                >>>>>>> ca297955b400b74e23089b64c02353f56d36d0ec
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".LoginActivity" />
         <activity android:name=".Launcher" />
-        <activity android:name=".profile"></activity>
+        <activity android:name=".profile"/>
     </application>
 
 </manifest>
