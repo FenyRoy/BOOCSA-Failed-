@@ -43,7 +43,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:background="@drawable/login_button_background"
+        android:background="@drawable/my_button_bg"
         android:fontFamily="monospace"
         android:textStyle="bold"
         android:layout_marginTop="5dp"
@@ -53,25 +53,27 @@
         android:textSize="25dp"
 
         />
+
     <Button
+        android:id="@+id/sign_up_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sign Up"
-        android:textSize="20dp"
-        android:id="@+id/sign_up_btn"
-        android:background="@drawable/login_button_background"
         android:layout_gravity="center"
         android:layout_marginTop="70dp"
-        />
+        android:padding="10dp"
+        android:background="@drawable/my_button_bg"
+        android:text="Sign Up"
+        android:textSize="20dp" />
+
     <Button
+        android:id="@+id/free_roam_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Free Roam"
-        android:background="@drawable/login_button_background"
+        android:padding="10dp"
         android:layout_gravity="center"
-        android:id="@+id/free_roam_btn"
-        android:textSize="20dp"
         android:layout_marginTop="10dp"
-        />
+        android:background="@drawable/my_button_bg"
+        android:text=" Free Roam "
+        android:textSize="20dp" />
 
 </LinearLayout>
